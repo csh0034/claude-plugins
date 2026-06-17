@@ -4,10 +4,13 @@
 
 ## 설치
 
-Claude Code 세션에서 아래를 실행한다. `csh0034/claude-plugins`는 이 레포 경로로 바꾼다.
+Claude Code 세션에서 아래를 순서대로 실행한다.
 
 ```
-/plugin marketplace add csh0034/claude-plugins
+/plugin marketplace add https://github.com/csh0034/claude-plugins
+```
+
+```
 /plugin install common@csh0034-claude-plugins
 ```
 
