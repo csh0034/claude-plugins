@@ -4,11 +4,11 @@
 
 ## 설치
 
-Claude Code 세션에서 아래를 실행한다. `<github-user>/claude-plugins`는 이 레포 경로로 바꾼다.
+Claude Code 세션에서 아래를 실행한다. `csh0034/claude-plugins`는 이 레포 경로로 바꾼다.
 
 ```
-/plugin marketplace add <github-user>/claude-plugins
-/plugin install common@csh0034-marketplace
+/plugin marketplace add csh0034/claude-plugins
+/plugin install common@csh0034-claude-plugins
 ```
 
 설치 후 새 세션부터 스킬이 인식된다. 이미 추가한 마켓플레이스를 갱신하려면 `/plugin marketplace update`.
