@@ -5,7 +5,7 @@
     {
       "name": "common",
       "source": "./",
-      "description": "개인용 Claude Code 스킬 모음 플러그인 (toy 스킬 포함)"
+      "description": "개인용 Claude Code 스킬 모음 플러그인"
     }
   ]
 }

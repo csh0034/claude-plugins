@@ -1,6 +1,6 @@
 {
   "name": "common",
-  "description": "개인용 Claude Code 스킬 모음 플러그인. 현재 기술 주제를 docs 레포로 정리하는 toy 스킬을 포함한다.",
+  "description": "개인용 Claude Code 스킬 모음 플러그인.",
   "version": "1.0.0",
   "author": { "name": "csh0034", "email": "csh0034@gmail.com" },
   "license": "MIT",
