@@ -50,14 +50,14 @@ allowed-tools: Read, Write, Edit, Bash, AskUserQuestion, WebSearch, WebFetch, mc
   - `02-architecture.md` (또는 `02-how-it-works.md`) — 동작 원리·구조
   - `03-usage.md` — 사용법 / 설치 / 기본 예시
   - `04-issues.md` — 이슈 / 한계 / 안티패턴 / 주의사항
-- 주제가 **여러 대상의 비교**라면(예: 라이브러리 3종) 참고처럼 `<대상>/0N-*.md`로 디렉토리를 나눈다. 이 경우 README 인덱스의 링크 경로가 `./<대상>/01-*.md`가 됨에 유의(`references/templates.md`의 디렉토리 분리 예시 참고).
+- 주제가 **여러 대상의 비교**라면(예: 라이브러리 3종) 참고처럼 `<대상>/0N-*.md`로 디렉토리를 나눈다. 이 경우 README 인덱스의 링크 경로가 `./<대상>/01-*.md`가 됨에 유의(`templates.md`의 디렉토리 분리 예시 참고).
 - 단순 주제면 문서를 줄이고, 복잡하면 늘린다. 과잉 분할 금지.
 - **이 단계에서 구조를 승인받으면, 이후 문서별로 매번 승인을 다시 받지 않는다.** 작성한 문서를 보여주며 진행하고, 사용자가 멈추라고 하거나 방향을 바꾸라고 할 때만 멈춘다.
 
 ### 4. CLAUDE.md 작성·커밋 (레포 컨벤션 확정)
 
 - git이 없으면 여기서 `git init -b main`.
-- `CLAUDE.md`를 먼저 만든다: 레포 목적 + 작성 컨벤션(아래 **작성 원칙**을 명문화). 골격은 `references/templates.md`.
+- `CLAUDE.md`를 먼저 만든다: 레포 목적 + 작성 컨벤션(아래 **작성 원칙**을 명문화). 골격은 `templates.md`.
 - 커밋: `git add CLAUDE.md` → `git commit -m "docs: CLAUDE.md 작성 규칙 추가"`. 이게 최초 커밋이 된다.
 - 컨벤션을 먼저 박아두면 이후 문서가 일관된 형식을 따른다.
 
@@ -156,4 +156,4 @@ allowed-tools: Read, Write, Edit, Bash, AskUserQuestion, WebSearch, WebFetch, mc
 
 ## 참고 파일
 
-- `references/templates.md` — `README.md` / `CLAUDE.md` 스켈레톤, 문서 템플릿, 디렉토리 분리 케이스 예시, git 명령 메모. 골격이 필요할 때 읽어 사용한다.
+- `templates.md` — `README.md` / `CLAUDE.md` 스켈레톤, 문서 템플릿, 디렉토리 분리 케이스 예시, git 명령 메모. 골격이 필요할 때 읽어 사용한다.
