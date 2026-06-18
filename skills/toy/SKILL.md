@@ -1,7 +1,8 @@
 ---
 name: toy
-description: 기술 주제 하나를 받아 개념·사용법·이슈를 번호 매긴 Markdown 문서들로 정리한 docs 레포를 만든다. 문서별로 한글 커밋(git)하고, 비교표 중심 README와 컨벤션 CLAUDE.md를 세팅하고, 필요하면 사용자 확인을 받아 코드 예제를 작성한 뒤 산출물을 검증·보완한다. 사용자가 기술/개념/툴을 "정리해줘", "문서로 만들어줘", "조사해서 docs로", "document this", "write up docs for ~" 같이 요청해 여러 문서로 된 정리 레포를 원할 때 사용. 단순 코드 리팩토링·텍스트 요약·회의록 정리에는 쓰지 않는다.
+description: 기술 주제 하나를 받아 개념·사용법·이슈를 번호 매긴 Markdown 문서들로 정리한 docs 레포를 빈 디렉토리에 만든다. 문서별로 한글 커밋(git)하고, 비교표 중심 README와 컨벤션 CLAUDE.md를 세팅하고, 필요하면 사용자 확인을 받아 코드 예제를 작성한 뒤 산출물을 검증·보완한다. `/common:toy`로 명시적으로 호출했을 때만 사용한다. 자동으로 트리거하지 않는다.
 user-invocable: true
+disable-model-invocation: true
 allowed-tools: Read, Write, Edit, Bash, AskUserQuestion, WebSearch, WebFetch, mcp__context7__resolve-library-id, mcp__context7__query-docs
 ---
 
